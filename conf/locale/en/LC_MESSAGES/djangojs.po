@@ -4607,6 +4607,7 @@ msgstr ""
 msgid ""
 "You receive messages from {platform_name} and course teams at this address."
 msgstr ""
+"You receive messages from {platform_name} at this address."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Recovery Email Address"
@@ -4628,6 +4629,7 @@ msgid ""
 "The name that is used for ID verification and that appears on your "
 "certificates."
 msgstr ""
+"The name that is used for ID verification."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Country or Region of Residence"
@@ -4677,6 +4679,9 @@ msgid ""
 "time zone, course dates, including assignment deadlines, will be displayed "
 "in your browser's local time zone."
 msgstr ""
+"Select the time zone for displaying event dates. If you do not specify a "
+"time zone, event dates, including assignment deadlines, will be displayed "
+"in your browser's local time zone."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "All Time Zones"
@@ -5359,7 +5364,7 @@ msgstr ""
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Run:"
-msgstr ""
+msgstr "Event Run"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "(Read-only)"
@@ -7118,11 +7123,11 @@ msgstr ""
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course Start"
-msgstr ""
+msgstr "Event Start"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Course End"
-msgstr ""
+msgstr "Event End"
 
 #: lms/djangoapps/support/static/support/templates/enrollment.underscore
 msgid "Upgrade Deadline"
@@ -7925,7 +7930,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "View Course"
-msgstr ""
+msgstr "View Event"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore
 msgid "Select a session:"

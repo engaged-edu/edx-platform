@@ -5426,7 +5426,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course Starts"
-msgstr ""
+msgstr "Event Starts"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Don't forget to add a calendar reminder!"
@@ -5435,16 +5435,16 @@ msgstr ""
 #: lms/djangoapps/courseware/date_summary.py
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} on {course_start_date}."
-msgstr ""
+msgstr "Event starts in {time_remaining_string} on {course_start_date}."
 
 #: lms/djangoapps/courseware/date_summary.py
 #, python-brace-format
 msgid "Course starts in {time_remaining_string} at {course_start_time}."
-msgstr ""
+msgstr "Event starts in {time_remaining_string} at {course_start_time}."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "Course End"
-msgstr ""
+msgstr "Event End"
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -5453,7 +5453,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid "After this date, course content will be archived."
-msgstr ""
+msgstr "After this date, event content will be archived."
 
 #: lms/djangoapps/courseware/date_summary.py
 msgid ""
@@ -9661,7 +9661,7 @@ msgstr ""
 #: cms/templates/course-create-rerun.html cms/templates/index.html
 #: cms/templates/settings.html
 msgid "Course Run"
-msgstr ""
+msgstr "Event Run"
 
 #: openedx/core/djangoapps/config_model_utils/models.py
 msgid ""
@@ -12133,12 +12133,12 @@ msgstr ""
 #: cms/templates/index.html
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Number:"
-msgstr ""
+msgstr "Event Number"
 
 #: cms/templates/index.html
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Run:"
-msgstr ""
+msgstr "Event Run"
 
 #: cms/templates/index.html lms/templates/courseware/courses.html
 #: lms/templates/header/navbar-authenticated.html
@@ -12150,7 +12150,7 @@ msgstr ""
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 #: themes/edx.org/lms/templates/header/navbar-authenticated.html
 msgid "Courses"
-msgstr ""
+msgstr "Events"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -12161,7 +12161,7 @@ msgstr ""
 #: cms/templates/settings.html
 #: lms/templates/instructor/instructor_dashboard_2/executive_summary.html
 msgid "Course End Date"
-msgstr ""
+msgstr "Event End Date"
 
 #: cms/templates/settings.html lms/templates/courseware/program_marketing.html
 msgid "Instructors"
@@ -12507,7 +12507,7 @@ msgstr ""
 
 #: lms/templates/dashboard.html themes/edx.org/lms/templates/dashboard.html
 msgid "Search Your Courses"
-msgstr ""
+msgstr "Search your events"
 
 #: lms/templates/courseware/courseware.html lms/templates/dashboard.html
 #: themes/edx.org/lms/templates/dashboard.html
@@ -12915,7 +12915,7 @@ msgstr ""
 
 #: lms/templates/preview_menu.html
 msgid "View this course as:"
-msgstr ""
+msgstr "View this event as:"
 
 #: lms/templates/preview_menu.html
 msgid "Learner"
@@ -14827,7 +14827,7 @@ msgstr ""
 #: lms/templates/shoppingcart/registration_code_receipt.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
 msgid "View Course"
-msgstr ""
+msgstr "View Event"
 
 #: lms/templates/courseware/course_about.html
 msgid "Course is full"
@@ -14956,7 +14956,7 @@ msgstr ""
 #: lms/templates/courseware/courseware-chromeless.html
 #: lms/templates/courseware/courseware.html
 msgid "Course Utilities"
-msgstr ""
+msgstr "Event Utilities"
 
 #: lms/templates/courseware/courseware-error.html
 msgid "Courseware"
@@ -15065,7 +15065,7 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 #: themes/edx.org/lms/templates/dashboard/_dashboard_course_resume.html
 msgid "Resume Course"
-msgstr ""
+msgstr "Resume Event"
 
 #: lms/templates/courseware/info.html
 msgid "View Updates in Studio"
@@ -15082,7 +15082,7 @@ msgstr ""
 #: lms/templates/courseware/info.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Course Tools"
-msgstr ""
+msgstr "Event Tools"
 
 #: lms/templates/courseware/news.html
 msgid "News - MITx 6.002x"
@@ -16668,7 +16668,7 @@ msgstr ""
 
 #: lms/templates/header/user_dropdown.html
 msgid "Resume your last course"
-msgstr ""
+msgstr "Resume your last event"
 
 #: lms/templates/header/user_dropdown.html
 msgid "Profile"
@@ -17639,7 +17639,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/instructor_dashboard_2.html
 msgid "View Course in Studio"
-msgstr ""
+msgstr "View Event in Studio"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html
 msgid "Enrollment Code Status"
@@ -18226,7 +18226,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/_dashboard_navigation_courses.html
 #: themes/edx.org/lms/templates/dashboard.html
 msgid "My Courses"
-msgstr ""
+msgstr "My Events"
 
 #: lms/templates/learner_dashboard/text-me-fragment.html
 msgid "Get the {platform_name} Mobile App!"
@@ -19080,12 +19080,12 @@ msgstr ""
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 #: openedx/features/course_search/templates/course_search/course-search-fragment.html
 msgid "Search the course"
-msgstr ""
+msgstr "Search the event"
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html
 #: openedx/features/course_experience/templates/course_experience/course-home-fragment.html
 msgid "Start Course"
-msgstr ""
+msgstr "Start Event"
 
 #: lms/templates/verify_student/_verification_help.html
 msgid "Have questions?"
